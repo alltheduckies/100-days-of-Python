@@ -1,0 +1,8 @@
+# Ignore a specific file
+token-github.rtf
+
+# Ignore a folder
+
+
+# Ignore all `.log` files
+*.log
