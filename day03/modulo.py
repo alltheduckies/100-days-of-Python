@@ -13,7 +13,7 @@ print("Welcome to Odd or Even checker!")
 number = int(input("What is the number do you want to check? "))
 
 if number % 2 == 0:
-    print("It is an even number!")
+    print("Even")
 
 else:
-    print("It is an odd number!")
+    print("Odd")
