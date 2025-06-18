@@ -26,6 +26,22 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
 where_to_go = input("You are at a cross road. Where do you want to go? \n    Type 'left' or 'right' \n").capitalize()
-swim_or_wait = input("You've come to a lake. There is an island in the middle of the lake. \n   Type 'wait' to wait for a boat. Type 'swim' to swim across.").capitalize()
-door = input("You arrive at the island unharmed. There is a house with 3 doors. \n   One red, one yellow and one blue. Which color do you choose?").capitalize()
 
+
+
+if where_to_go == "Left":
+    swim_or_wait = input("You've come to a lake. There is an island in the middle of the lake. \n   Type 'wait' to wait for a boat. Type 'swim' to swim across.\n").capitalize()
+    if swim_or_wait == "Wait":
+        door = input("You arrive at the island unharmed. There is a house with 3 doors. \n   One red, one yellow and one blue. Which color do you choose?\n").capitalize()
+        if door == "Yellow":
+            print("You win!")
+        elif door == "Red":
+            print("Burned by fire. Game Over.")
+        elif door == "Blue":
+            print("Eaten by beasts. Game Over.")
+        else:
+            print("Game over.")
+    else:
+        print("Attacked by trout. Game over.")
+else:
+    print("Fall into a hole. Game over.")
