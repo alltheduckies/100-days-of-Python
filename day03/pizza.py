@@ -11,17 +11,17 @@ Add pepperoni for small pizza (Y or N) : $2
 Add pepperoni for medium or large pizza (Y or N): +$3
 Add extra cheese for any size pizza (Y or N): +1
 '''
-small = 15
-medium = 20
-large = 25
+small_pizza = 15
+medium_pizza = 20
+large_pizza = 25
 price = 0
 
 if size == "S":
-    price = small
+    price = small_pizza
 elif size == "M":
-   price = medium
+   price = medium_pizza
 else:
-   price = large
+   price = large_pizza
 
 # add pepperoni or not
 
