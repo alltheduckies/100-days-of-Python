@@ -26,3 +26,6 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
 where_to_go = input("You are at a cross road. Where do you want to go? \n    Type 'left' or 'right' \n").capitalize()
+swim_or_wait = input("You've come to a lake. There is an island in the middle of the lake. \n   Type 'wait' to wait for a boat. Type 'swim' to swim across.").capitalize()
+door = input("You arrive at the island unharmed. There is a house with 3 doors. \n   One red, one yellow and one blue. Which color do you choose?").capitalize()
+
