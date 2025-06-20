@@ -8,7 +8,7 @@ if number_0_or_1 == 0:
 else:
     print("Tail")
 
-# or use randint()
+# or use randint(start, stop)
 
 random_int_number = random.randint(0, 1)
 
